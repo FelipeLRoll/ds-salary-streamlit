@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from sklearn import linear_model
 
-df = pd.read_csv(r'E://ROLL//DataScience//Projetos//ds-salary-streamlit//dataset//updated_ds_jobs_2021.csv')
+df = pd.read_csv(r'E:/ROLL/DataScience/Projetos/ds-salary-streamlit/dataset/updated_ds_jobs_2021.csv')
 
 uploaded_file = st.file_uploader("Choose a file")
 if uploaded_file is not None:
